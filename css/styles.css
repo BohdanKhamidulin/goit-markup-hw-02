@@ -1,8 +1,7 @@
-/*font-family: 'Raleway', sans-serif;??? --!//
-  */
 :root {
   --main-color: #212121;
 }
+/*body portfolio*/
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
@@ -10,7 +9,10 @@ body {
 .list {
   list-style: none;
 }
-
+.filters {
+  display: none;
+}
+/*navigation sector*/
 .logo-first-part {
   color: #2196f3;
 }
@@ -41,6 +43,7 @@ body {
 .navigation-item:hover {
   color: #2196f3;
 }
+
 .contacts-item {
   font-family: inherit;
   font-weight: 500;
@@ -53,6 +56,7 @@ body {
 .contacts-item:focus {
   color: #2196f3;
 }
+/*main section*/
 .btn-item {
   font-family: inherit;
   font-weight: 500;
@@ -80,6 +84,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
+/*footer section*/
 .footer {
   font-family: inherit;
   background: #2f303a;
