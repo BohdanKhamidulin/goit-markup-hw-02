@@ -1,0 +1,112 @@
+/*font-family: 'Raleway', sans-serif;??? --!//
+  */
+:root {
+  --main-color: #212121;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+}
+.list {
+  list-style: none;
+}
+
+.logo-first-part {
+  color: #2196f3;
+}
+.logo-second-part {
+  color: #000000;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.navigation {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.navigation-item {
+  font-family: inherit;
+  color: var(--main-color);
+}
+.navigation-item:focus {
+  color: #2196f3;
+}
+.navigation-item:hover {
+  color: #2196f3;
+}
+.contacts-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contacts-item:hover,
+.contacts-item:focus {
+  color: #2196f3;
+}
+.btn-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.btn-item:hover,
+.btn-item:focus {
+  background: #2196f3;
+}
+.example-list-name {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.example-list-about {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer {
+  font-family: inherit;
+  background: #2f303a;
+}
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+}
+.logo-footer .logo-second-part {
+  color: #ffffff;
+}
+.point-link {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-list-mail,
+.footer-list-tel {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
